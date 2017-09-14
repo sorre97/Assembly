@@ -18,7 +18,7 @@
 
 main: 
 	la $t5, valori
-	lw $t0, 0($t5)
+	lw $t0, 0($t5) # Loading values
 	lw $t1, 4($t5)
 	lw $t2, 8($t5)
 
