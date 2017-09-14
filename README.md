@@ -15,9 +15,10 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Store the final value is the memory location **after the last value**.*
 
-<i class="icon-file"></i> [Download the asm file](http://www.google.it)
+:file_folder: [Download the asm file](http://www.google.it)
 
 ----------
+
 
 ### **Es1b.asm** <sup>Input version (use syscall or mapped I/O)</sup>
 *Write an assembly program that outputs a string asking for 3 integer values **from input** a, b and c memorised in memory  at the "values" label. Store them in* \$t0, \$t1, *and* \$t2 *registers and calculate:*
@@ -30,7 +31,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Store the final value is the memory location **after the last value inserted**.*
 
-<i class="icon-file"></i> [Download the asm file](http://www.google.it)
+:file_folder: [Download the asm file](http://www.google.it)
 
 ----------
 [^spim]: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
