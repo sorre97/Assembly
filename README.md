@@ -1,35 +1,34 @@
 Assembly exercises (MIPS32)
 ===================
 Those are a few exercises I've come with in order to exercise with assembly MIPS32 programming language. 
-Simulator I've used to test: *QtSpim*[^spim] (Also *MARS MIPS* is good to go)
-Every exercises have comments at the side of the code.
+Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to go)
 
-#### **Es1.asm**
+### **Es1.asm**
 
-> Write an assembly program that reads 3 values a, b and c memorised in memory  at the "values" label. Store them in _\$t0, \$t1, and \$t2_ registers and calculate:
+*Write an assembly program that reads 3 values a, b and c memorised in memory  at the "values" label. Store them in _\$t0, \$t1, and \$t2_ registers and calculate:*
 
-> - Sum of those 3 values if the first one is positive
+ - *Sum of those 3 values if the first one is positive*
 
-> - Prod of those 3 values if the first one is negative
+ - *Prod of those 3 values if the first one is negative*
 
->-  AND of second and third value is the first one is equal to zero
+ - *AND of second and third value is the first one is equal to zero*
 
-> Store the final value is the memory location **after the last value**.
+*Store the final value is the memory location **after the last value**.*
 
 <i class="icon-file"></i> [Download the asm file](http://www.google.it)
 
 ----------
 
-#### **Es1b.asm** <sup>Input version (use syscall or mapped I/O)</sup>
-> Write an assembly program that outputs a string asking for 3 integer values **from input** a, b and c memorised in memory  at the "values" label. Store them in _\$t0, \$t1, and \$t2_ registers and calculate:
+### **Es1b.asm** <sup>Input version (use syscall or mapped I/O)</sup>
+*Write an assembly program that outputs a string asking for 3 integer values **from input** a, b and c memorised in memory  at the "values" label. Store them in* \$t0, \$t1, *and* \$t2 *registers and calculate:*
 
-> - Sum of those 3 values if the first one is positive
+- *Sum of those 3 values if the first one is positive*
 
-> - Prod of those 3 values if the first one is negative
+- *Prod of those 3 values if the first one is negative*
 
->-  AND of second and third value is the first one is equal to zero
+- *AND of second and third value is the first one is equal to zero*
 
-> Store the final value is the memory location **after the last value inserted**.
+*Store the final value is the memory location **after the last value inserted**.*
 
 <i class="icon-file"></i> [Download the asm file](http://www.google.it)
 
