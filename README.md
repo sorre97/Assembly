@@ -15,7 +15,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Store the final value is the memory location **after the last value**.*
 
-:file_folder: [Download the asm file](http://www.google.it)
+:page_facing_up: [Download the asm file](http://www.google.it)
 
 ----------
 
