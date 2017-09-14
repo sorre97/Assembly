@@ -34,4 +34,4 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 :page_facing_up: [Download the asm file](http://www.google.it)
 
 ----------
-[^spim]: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
+1: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
