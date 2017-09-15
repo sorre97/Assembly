@@ -15,7 +15,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Store the final value is the memory location **after the last value**.*
 
-:page_facing_up: [Download the asm file](http://www.google.it)
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es1.asm)
 
 ----------
 
@@ -31,7 +31,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Store the final value is the memory location **after the last value inserted**.*
 
-:page_facing_up: [Download the asm file](http://www.google.it)
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es1b.asm)
 
 ----------
 
@@ -39,7 +39,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 *Calculate the sum of 10 numbers stored in memory and store the result back in memory*
 
-:page_facing_up: [Download the asm file](http://www.google.it)
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es2.asm)
 
 -----------
 
