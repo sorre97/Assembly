@@ -45,10 +45,21 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 ### **Es3.asm**
 
-*Write a procedure that, given an array stored in data segment and a number 'n'*
-*Return the n-th element of the array (remember that arrays are '0'-index based)*
+*Write **a procedure** that, given an array stored in data segment and a number 'n',*
+*returns the n-th element of the array (remember that arrays are '0'-index based)*
 
 :page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es3.asm)
+
+-----------
+
+### **Es4.asm**
+
+*Write **a procedure** that calculates the maximum and the minimum number between integers in the array*
+*passed as parameter and prints their value on screen (syscall)*
+
+Use a procedure that calls other two sub-procedures that calculate max and min separately. Remember to save the $ra register using the stack pointer!
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es4.asm)
 
 -----------
 
