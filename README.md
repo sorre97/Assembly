@@ -48,7 +48,7 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 *Write a procedure that, given an array stored in data segment and a number 'n'*
 *Return the n-th element of the array (remember that arrays are '0'-index based)*
 
-:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es3.asm))
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es3.asm)
 
 -----------
 
