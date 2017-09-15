@@ -43,4 +43,13 @@ Simulator I've used to test: *QtSpim*<sup>1</sup> (Also *MARS MIPS* is good to g
 
 -----------
 
+### **Es3.asm**
+
+*Write a procedure that, given an array stored in data segment and a number 'n'*
+*Return the n-th element of the array (remember that arrays are '0'-index based)*
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es3.asm))
+
+-----------
+
 1: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
