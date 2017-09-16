@@ -24,7 +24,7 @@ end:
 	syscall
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # # # # #
 # 
 #	This would have been the equal of
 # 	for(int i = 0; i <= 11; i++){
