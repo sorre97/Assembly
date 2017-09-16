@@ -63,4 +63,25 @@ Use a procedure that calls other two sub-procedures that calculate max and min s
 
 -----------
 
+### **Es5.asm**
+
+*Write an **assembly procedure** that calculates the absolute value of an integer*
+*and prints its value on screen (syscall or mapped I/O)*
+
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es5.asm)
+
+-----------
+
+### **Es6.asm**
+
+*Write an assembly program that writes numbers from 20 to 30 starting from memory-location*
+*0x10010000 up to 0x10010028 using a cylce and ends the program.*
+*Remember: data segment starts from 0x10010000 (hex)*
+
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es6.asm)
+
+-----------
+
 1: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*

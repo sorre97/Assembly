@@ -1,4 +1,4 @@
-# Create a procedure that calculates the maximum and the minimum number between integers in the array
+# Write a procedure that calculates the maximum and the minimum number between integers in the array
 # passed as parameter and prints their value on screen (syscall)
 
 .data
@@ -20,6 +20,7 @@ end:
 	syscall				# calling SO service, print_int in this case (output handler)
 	li $v0, 10			# calling exit syscall function
 	syscall
+	# No space is provided, it should be 992 -> 99 max and 2 min
 
 maxMin:
 	move $t0, $a0 		# preserving parameter of the procedure
