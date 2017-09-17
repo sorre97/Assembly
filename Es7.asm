@@ -6,7 +6,7 @@
 # So <sb $t3, 0(string)> stores 'H', <sb $t3, 1($t0)> stores 'i' and so on.
 
 .data
-	string: .asciiz "Hi, i em e string!\n"	# \n has nothing to do with \0. 
+	string: .asciiz "Hi, i em e string!\n"	# \n has nothing to do with \0. It just ends the line.
 											# \0 is automatically inserted by .asciiz at the end of the string (after \n)
 .text
 	.globl main
