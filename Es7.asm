@@ -1,4 +1,4 @@
-# Write a program that writes a string that ends with '\0' in memory (using .asciiz or .ascii)
+# Write a program that writes a string that ends with '\0' in memory (using .asciiz or .ascii) 
 # Convert then all 'e's in the string with the 'a' using a cycle that iterates the string in memory.
 # The cycle must end when if finds '\0' (null char, its value is 0 in ascii table)
 

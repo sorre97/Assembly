@@ -1,4 +1,4 @@
-# Write a program that does a research inside an array of integers, in particular: 
+# Write a program that does a research inside an array of integers, in particular:  
 	# $a0 contains the address of the array of integers
 	# $a1 contains the number of elements inside the array
 	# $a2 contains the number to search

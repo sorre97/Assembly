@@ -1,5 +1,5 @@
 # Write an assembly program that calculates the absolute value of an integer
-# and prints its value on screen (syscall or mapped I/O)
+# and prints its value on screen (syscall or mapped I/O) 
 
 .data
 	values: .word -24512

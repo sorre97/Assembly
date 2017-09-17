@@ -1,4 +1,4 @@
-# Write an assembly program that writes numbers from 20 to 30 starting from memory-location
+# Write an assembly program that writes numbers from 20 to 30 starting from memory-location 
 # 0x10010000 up to 0x10010028 using a cylce and ends the program.
 
 .data	# data segment starts from 0x10010000

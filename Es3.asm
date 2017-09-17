@@ -1,4 +1,4 @@
-# Write a procedure that, given an array stored in data segment and a number 'n'
+# Write a procedure that, given an array stored in data segment and a number 'n' 
 # return the n-th element of the array (remember that arrays are '0'-index based)
 
 .data

@@ -8,7 +8,7 @@
 	.globl main
 
 main:
-	la $a0, values 		# loading array's address and passing it as parameter for the procedure below
+	la $a0, values 		# loading array's address and passing it as parameter for the procedure below 
 	jal maxMin
 	move $s0, $v0		# saving max value returned from the procedure
 	move $s1, $v1		# saving min value returned from the procedure

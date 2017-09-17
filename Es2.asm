@@ -2,7 +2,7 @@
 
 .data
 	values: .word 5, 7, 8, 6, 5, 4, 5, 6, 7, 8
-	result: .word 0 # placeholder
+	result: .word 0 # placeholder 
 
 .text
 	.globl main

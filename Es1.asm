@@ -15,7 +15,7 @@ main:
 	la $t5, values
 	lw $t0, 0($t5) # Loading values
 	lw $t1, 4($t5)
-	lw $t2, 8($t5)
+	lw $t2, 8($t5) 
 
 	# CASE 1
 	# pseudoinstruction
