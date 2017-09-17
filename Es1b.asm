@@ -1,4 +1,4 @@
-# Si chiede di scrivere il programma assembly che legge 3 valori a, b, e c memorizzati 
+# Si chiede di scrivere il programma assembly che legge 3 valori a, b, e c memorizzati  
 # nella memoria all’etichetta “valori” nei registri $t0, $t1, $t2 e calcola:
 
 # case1: La somma dei tre valori in $s0 se il primo valore e’ positivo
