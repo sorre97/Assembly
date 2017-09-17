@@ -105,4 +105,20 @@ and "string" the label of the data segment of the string
 
 -----------
 
+### **Es8.asm**
+
+*Write a program that does a research inside an array of integers, in particular:*
+
+ - *$a0 contains the address of the array of integers*
+
+ - *$a1 contains the number of elements inside the array*
+
+ - *$a2 contains the number to search*
+
+*The program must set $s0 at 1 is the number is found, 0 otherwise.*
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es8.asm)
+
+-----------
+
 1: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
