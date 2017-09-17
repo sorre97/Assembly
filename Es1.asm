@@ -1,23 +1,18 @@
-# Si chiede di scrivere il programma assembly che legge 3 valori a, b, e c memorizzati 
-# nella memoria all’etichetta “valori” nei registri $t0, $t1, $t2 e calcola:
-
-# case1: La somma dei tre valori in $s0 se il primo valore e’ positivo
-
-# case2: Il prodotto dei tre numeri in $s0 se il primo valore e’ negativo
-
-# case3: L’AND del secondo e del terzo numero se il primo e’ uguale a zero.
-
-# Si chiede di memorizzare il risultato in memoria nella locazione subito dopo il terzo valore.
+# Write an assembly program that reads 3 values a, b and c memorised in memory at the "values" label. Store them in $t0, $t1, and $t2 registers and calculate:
+	# Sum of those 3 values if the first one is positive
+	# Prod of those 3 values if the first one is negative
+	# AND of second and third value is the first one is equal to zero
+# Store the final value is the memory location after the last value.
 
 .data
-	valori: .word 8, 7, 8
+	values: .word 8, 7, 8
 	mem: .word 0
 
 .text
 	.globl main
 
 main: 
-	la $t5, valori
+	la $t5, values
 	lw $t0, 0($t5) # Loading values
 	lw $t1, 4($t5)
 	lw $t2, 8($t5)
@@ -44,18 +39,18 @@ main:
 	case1: 
 		add $s0, $t0, $t1
 		add $s0, $s0, $t2
-		j fine
+		j end
 
 	case2:
 		mul $s0, $t0, $t1
 		mul $s0, $s0, $t2
-		j fine
+		j end
 
 	case3:
 		and $s0, $t1, $t2
-		j fine
+		j end
 
-	fine:
+	end:
 		la $t0, mem
 		sw $s0, 0($t0)
 		li $v0, 10
