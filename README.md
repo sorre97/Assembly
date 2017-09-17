@@ -84,4 +84,25 @@ Use a procedure that calls other two sub-procedures that calculate max and min s
 
 -----------
 
+### **Es7.asm**
+
+*Write a program that writes a string that ends with '\0' in memory (using .asciiz or .ascii)*
+*Convert then all 'a's in the string with the 'e' using a cycle that iterates the string in memory.*
+*The cycle must end when if finds '\0' **(null char, its value is 0 in ascii table)** *
+
+Note: .asciiz automatically ends the string with \0 (null char), .ascii don't. If using .ascii manually insert \0
+
+##### I'm working with bytes and not words since a single char is 8 bit (1 byte) is ascii code (actaully 7 bit in ascii and 8 bit in ascii extended)
+So, given the string 
+
+    "Hi I am a string"
+
+and "string" the label of the data segment of the string
+
+`sb $t3, 0(string)` stores 'H' in \$t3, `sb $t3, 1($t0)` stores 'i' in \$t3 and so on.
+
+:page_facing_up: [Download the asm file](https://raw.githubusercontent.com/sorre97/Assembly/master/Es7.asm)
+
+-----------
+
 1: *Spim is a self-contained simulator that runs MIPS32 programs. It implements almost the entire MIPS32 assembler-extended instruction set.*
